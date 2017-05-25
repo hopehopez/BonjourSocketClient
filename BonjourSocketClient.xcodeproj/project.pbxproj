@@ -16,6 +16,7 @@
 		7C0C1C831ED571BF00FBF9C2 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C1C801ED571BF00FBF9C2 /* GCDAsyncSocket.m */; };
 		7C0C1C841ED571BF00FBF9C2 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C1C821ED571BF00FBF9C2 /* GCDAsyncUdpSocket.m */; };
 		7C0C1C871ED5767100FBF9C2 /* BonjourSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C1C861ED5767100FBF9C2 /* BonjourSocketClient.m */; };
+		7C0C1C931ED6848800FBF9C2 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0C1C921ED6848800FBF9C2 /* AsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		7C0C1C821ED571BF00FBF9C2 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		7C0C1C851ED5767100FBF9C2 /* BonjourSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourSocketClient.h; sourceTree = "<group>"; };
 		7C0C1C861ED5767100FBF9C2 /* BonjourSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourSocketClient.m; sourceTree = "<group>"; };
+		7C0C1C911ED6848800FBF9C2 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		7C0C1C921ED6848800FBF9C2 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				7C0C1C861ED5767100FBF9C2 /* BonjourSocketClient.m */,
 				7C0C1C6D1ED5719200FBF9C2 /* ViewController.h */,
 				7C0C1C6E1ED5719200FBF9C2 /* ViewController.m */,
+				7C0C1C911ED6848800FBF9C2 /* AsyncSocket.h */,
+				7C0C1C921ED6848800FBF9C2 /* AsyncSocket.m */,
 				7C0C1C701ED5719200FBF9C2 /* Main.storyboard */,
 				7C0C1C731ED5719200FBF9C2 /* Assets.xcassets */,
 				7C0C1C751ED5719200FBF9C2 /* LaunchScreen.storyboard */,
@@ -180,6 +185,7 @@
 				7C0C1C871ED5767100FBF9C2 /* BonjourSocketClient.m in Sources */,
 				7C0C1C6C1ED5719200FBF9C2 /* AppDelegate.m in Sources */,
 				7C0C1C691ED5719200FBF9C2 /* main.m in Sources */,
+				7C0C1C931ED6848800FBF9C2 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +348,7 @@
 				7C0C1C7D1ED5719200FBF9C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
